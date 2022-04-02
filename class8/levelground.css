@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    float: left;
+    
+}
+nav ul,nav img,nav button{
+    float: left;
+    width: 20%;
+    margin: auto;
+    border: none;
+ 
+}
+nav li{
+    list-style: none;
+    width: 35%;
+    float: left;
+    color: white;
+}
+nav img{
+    margin: 0% 27%;
+    width: 6%;
+}
+header,main,div,footer{
+    background-color: rgba(102, 118, 138, 255);
+
+
+}
+main{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 5%;
+}
+main +section{
+    float: left;
+    width: 100%;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+section+section{
+    float: left;
+    width: 50%;
+    padding:5% 2% ;
+    text-align: center;
+    background-color: #dbdfe2;
+}
+
+.rectangle {
+    height: 70px;
+    width: 100px;
+    padding-left: 60%;
+    padding-bottom: 20%;
+    margin-left:21% ;
+  }
+section a{
+    text-decoration: none;
+    color: rgba(102, 118, 138, 255);
+    font-size: smaller;
+    border: 2px solid #d6d6d6;
+    padding: 1% 2%;
+}
+section.last{
+    background-color: #ffffff;
+    width: 100%;
+}
+footer{
+    height: 233px;
+    border:2px solid grey;
+    clear: both;}
+/*footer >section {
+    width: 100%;
+    height: 10%;
+    clear: both;
+}*/
+
+footer section{
+    float: left;
+    width: 40%;
+    padding: 0 5% 0 5%;
+  
+  
+}
+footer section+section{
+    float: right;
+    width: 40%;
+    background-color: rgba(102, 118, 138, 255);
+    
+}
+section i,section li,section address,section+section h4{
+    color: white;
+}
+
+footer section ul li{
+    float: left;
+    width: 30%;
+    list-style: none;
+    margin-left: 0;
+    
+}
+footer section h4+ul li{
+    width: 50%;
+}
+footer section+section a,footer>section>ul>li>a{
+    border: none;
+
+}
+.mail{
+     color: white;
+}
+section i{
+    width: 10%;
+    height: 10%;
+}
+

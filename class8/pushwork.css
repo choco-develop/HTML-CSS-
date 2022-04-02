@@ -1,0 +1,11 @@
+*
+{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+header span, header ul header button{
+        float: left;
+        width: 10%;
+}

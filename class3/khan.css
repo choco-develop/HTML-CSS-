@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+header *{
+    width: 80%;
+    
+   margin: auto;
+   /*  background-color: blue ;
+    height: 10%;
+    border: 2px solid blue ;*/
+}
+header>nav a,header>nav ul,header>nav form,header>nav h2{
+    float: left;
+    width: 22%;  
+
+}
+nav li{
+    float: left;
+    width: 28%;
+    margin-top: -1.5%;
+  list-style: none;
+}
+header>nav form{
+    width: 10%;
+    margin: 0 -2%;
+    color: blue;
+}
+header>nav a{
+    width: 10%;
+    margin: 0 0;
+
+}
+header>nav h2{
+    width: -6%;
+    margin: -0.3% 20%;
+}
+a{
+    text-decoration: none;
+}
+nav form input{
+    background-color: rgb(224, 231, 228);
+    padding-bottom: 0%;
+}
+input[type="text"]{
+    color: blue;
+}
+nav img{
+    width: 10%;
+    margin-top:3%
+}
+header+main{
+    width: 100%;
+ 
+}
+section{
+    width: 50%;
+    float: left;
+}
+
+main>section{
+    padding-left: 0;
+    padding-top: 10%;
+}
+section img{
+    width: 100%;
+   margin-left: 15%;
+}
+section+section{
+    padding-left: 5%;
+    padding-right: 20%;
+}
+section+section ul li{
+    float: left;
+    width: 22%;
+    list-style:none;
+    border:2px solid blue;
+background-color: blue;
+padding: 1% 0%;
+margin: 10% 0.4%;
+
+}
+section ul{
+ margin: 1% -0.8% 0 1% ;
+    width: 100%;
+      /* margin: auto;*/
+}
+
+section ul li a{
+    color: white;
+}

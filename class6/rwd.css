@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 150px;
+    border: 3px solid black;
+    clear: both;
+}
+
+ section {
+    border: 2px solid black;
+    width: 33.33%;
+   height: 300px;
+   float:left;
+ }
+ /*mobiles*/
+@media screen  and (max-width:480px){
+   section{
+       float: none;
+       width: 100%;
+    } 
+}
+/*tablets and ipads in low resolution*/
+@media (min-width:481px) and (max-width:780px){
+    section{
+        height: 500px;
+        background: greenyellow;
+    }
+
+}
+/*tablets in potrait*/
+@media (min-width:781px) and (max-width:1024px){
+     section{
+         background: blue;
+     }
+}
+/*laptops and Desktops*/
+@media (min-width:1025px) and (max-width:1280px){
+    section{
+      background: red;
+    }
+}
+/*larger screen sizes*/
+@media (min-width:1281px){
+    section{
+      height:250px;  
+      background: purple;
+    }
+    header,footer{
+       height: 200px;
+       background: rgb(124, 112, 136);
+    }
+}

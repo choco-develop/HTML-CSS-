@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+nav *{
+    float: left;
+    width: 10%;
+    
+}
+nav ul {
+    width: 75%;  
+    list-style: none;
+    margin-left: 15%;
+    font-size: smaller;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+nav img{
+    width: 3%;
+    margin-left: 5%;
+}
+
+/*Main*/
+
+body .background{
+    background-image: url(hero1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+main {
+    float: left;
+    width: 50%;
+    height: 50vh;
+    padding-left: 5%;
+}
+main img{
+    
+    height: 50vh;
+} 
+.main{
+     padding-left: 5%;
+}
+.main h1{
+    font-size: 2em;
+    font-weight: 1000;
+}
+main>i{
+     position: absolute;
+}
+.icon{
+   padding-left: 0.5%;
+   padding-top: 0.25%; 
+   opacity: 60%;
+
+}
+main input{
+    opacity: 60%;
+}
+main>input, main>button{
+    width: 40%;  
+    text-align: center;
+    
+    
+}
+main>button{
+    width: 15%;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    padding: 0%;
+}
+
+main ul{
+    list-style: none;
+}
+main ul li{
+     float: left;
+     margin: auto -3%;
+     width: 20%;
+}
+main  ul li i{
+    color: orange;
+}
+
+.about{
+    background-image: url(plswork.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    
+  
+}
+.about .mid {
+    float:right;
+     width: 40%;
+     text-align: center;
+     color: #ffffff;
+}
+ button{
+   background-color: orange;
+   border:2px solid orange;
+   border-radius: 4pt;
+   padding: 1%;
+
+}
+ button:hover{
+    font-size: larger;
+    color: #ffffff;
+}
+
+
+
+
+/* food show*/
+.foodshow {
+    padding-top: 3%;
+    margin-bottom: 3%;
+    background-color: #f0f2f4;
+    height:110vh;
+  
+}
+.foodshow span, .book span a, .review span a{
+    margin: auto 42% auto 45%;
+      font-size: 0.9em;    
+}
+.foodshow span a,.book span a,.review span a, .about span a{
+    color: orange;
+    text-decoration: none;
+}
+.foodshow span a:hover,.book span a:hover,.about span a:hover{
+     text-decoration:underline solid;
+    font-weight: 600;
+}
+.foodshow h2{
+    margin: 3% 35%;
+    font-size: 2em;
+}
+.foodshow ul{
+    list-style: none;
+    margin: 2% 30% 2% 20%;
+}
+.foodshow ul li{
+    float: left;
+    width: 10%;
+    padding: 0 10%;
+    
+} 
+.foodshow ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.foodshow ul li a:hover{
+    color: orange;
+   opacity: 50%;
+   text-decoration: solid;
+   font-weight: 800;
+
+}
+.foodshow div{
+    width: 100%;
+    clear: both;
+    margin: auto 5% auto 2%;
+   
+}
+.foodshow div>img{
+    float: left;
+    width: 20%;
+    height: 25vh;
+    margin: 2% 2%;
+  
+}
+.foodshow div>img:hover{
+    border: 3px solid orange;
+}
+/*opening hours */
+
+.book{
+    clear: both;
+    width: 80%;
+    margin: auto;
+    box-shadow: -5px -5px 5px -5px #0f032c;
+    background-color: #ffffff;
+    padding-top: 5%;
+    
+}
+.book h2{
+    margin: 3% 17% 3% 35%;
+    font-size: 2em;
+}
+.book span>span{
+    margin: 3% 18% 3% 45%;
+    font-size: 1em;
+}
+
+.book span .phone{
+    font-size: 1.5em;
+   margin: auto 28% auto 40%;
+    text-align: center;
+}
+.book i{
+      color:orange ;
+      margin: auto 35% auto 47%;
+      border-radius:60%;
+      border:2px solid orange;
+      padding: 1% ;
+      margin-bottom: 1%;
+}
+.book p{
+   
+    width: 20%;
+    float: left;
+    margin: auto 15%;
+    font-size: 1em;
+    margin-top: 1%;
+   
+}
+.book p+p{
+    float: right;
+    
+}
+.book img{
+    margin: 5% 10%;
+    width: 80%;
+}
+.book p>span{
+    font-weight: 900;
+    font-size: 1.3em;
+}
+/*Review*/
+.review{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    background-color: #f0f2f4;
+    height: 70vh;
+}
+.review span a{
+    margin: auto 26% auto 25%
+}
+.review .profile{
+
+    width: 6%;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: cover;  
+    transform: rotate(310deg);  
+}
+.review p{
+    margin: auto 15%;
+}
+
+.review .name{
+    font-size: 0.9em;
+   
+}
+.review .job{
+    opacity: 50%;
+    font-size: 0.8em;
+}
+.review .star{ 
+    height: 3vh;
+    margin:2% auto ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

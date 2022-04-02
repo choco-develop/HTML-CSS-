@@ -1,0 +1,143 @@
+*
+{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #8798b6;
+    margin: auto;
+    
+}
+header span, header ul, header button{
+        float: left;
+        width: 10%;
+        padding:0 1%;
+}
+header span{
+    font-size: larger;
+    font-weight: 800;
+}
+nav ul li{
+    width: 25%;
+    float: left;
+    list-style: none;
+    padding: 0 2%;
+}
+nav ul li+li{
+    padding-left: 3%;
+}
+header ul{
+    width: 40%;
+    margin:0 16%;
+}
+nav button{
+    padding: 0 2%;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: #8798b6;
+
+}
+    
+
+main section{
+    float: left;
+    width: 20%;
+    /*height: 500%;*/
+    margin-top: 2%;
+}
+main section h1{
+    margin-top: 2%;
+}
+main section span{
+     font-size: 0.8em;
+}
+main section+section{
+    width: 70%;
+    float: right;
+}
+main img{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(235, 240, 243) ;
+}
+
+section form,section button{
+    float: left;
+    width:70%;
+}
+section button {
+    width: 30%;
+    
+}
+body>section{
+    width: 80%;
+    float: left;
+    margin:0 10%;
+  
+}
+  /* background 
+  header,main,main+section{
+      background-color: #8798b6;
+  }*/
+
+main+section>div{
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+h1,h2,h3,li,p,a,span,label{
+    color: rgb(70, 84, 96);
+}
+button{ 
+    background-color: rgb(70, 84, 96);
+    color:rgb(235, 240, 243) ;
+}
+body{
+    background-color: rgb(235, 240, 243) ;
+}
+section form input{
+    background-color: #e3e6f3;
+}
+/*section form label( for="Placeholder"){
+    font-size: 0.5em;
+}*/
+main+section+section{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    margin: auto;
+    padding: 0 10%;
+}
+main+section+section h3{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: -1%;
+    padding-bottom: 0;
+    color: #525c66;
+}
+
+main+section+section div{
+width: 80%;
+margin: auto;
+background-color: rgba(225,223,228,255);
+height: 50px;
+clear: both;
+}
+
+ /* .half{
+   width: 80%;
+    margin: auto;
+    background-color: rgba(225,223,228,255);
+    height: 50px;
+    clear: both;
+}
+*/
+main+section+section p{
+    color:  #b6b4b4;
+}
+a{
+    text-decoration: none;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,150 @@
+*{ 
+    box-sizing: border-box;
+    max-width: 96%;
+    margin: auto;
+}
+
+
+
+header{
+    background: black;
+    height: 40px;color: white;
+    width: 100%;
+}
+
+
+header img{
+    height: 40px;
+    width:10% ;
+    float: left;
+}
+nav *{
+    float: left;
+    color: white;
+    width: 10%;
+    display: block;
+   
+}  
+nav ul{
+    width: 60%;
+    margin-top:10px;
+}
+nav form input{
+    width: 100%;
+}
+nav form,nav a{
+    margin: 10px;
+}
+nav li,nav li+li,nav form{
+    border-left: 1px solid white;
+    padding-left: 2px;
+   
+}
+nav a{
+    margin-left: 20px;
+}
+/* the first section with a main and an aside*/
+summary{
+    margin: 1% 0 4% 0;
+}
+
+summary >h3{
+    float: left;
+    width: 80%;
+    border: none;
+}
+summary span{
+    float: left;
+    width: 15%;
+}
+
+main,aside{
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin-bottom: -32%;
+}
+
+    
+main{
+    background-image: url(Isreal_UAE.JPG);
+   background-repeat: no-repeat;
+   background-size: 98% 69%;
+    height: 445px;
+    
+}main a, aside a,main h4{
+    text-decoration: none;
+    color: white;
+    
+}
+main span,aside span{
+    color: white;
+    border-left: 2px solid rgb(60, 231, 60);
+    padding-left: 2px;
+    margin-left: 2px;
+}
+main>div{
+    padding-top: 40%;
+}
+
+aside article{
+    width: 50%;
+    float: left;
+}
+ article.canada,article.health, article.life,article.music{
+    background-image: url(Canada-america-flag.JPG);
+    background-repeat: no-repeat;
+   background-size:  96% 95% ;
+    height: 157px;
+    padding-top: 96px;
+}
+ article.health{
+    background-image: url(vaccinate.JPG);
+    
+}
+ article.life{
+    background-image: url(gym.JPG);
+   
+}
+ article.music{
+    background-image: url(music.JPG); 
+}
+
+
+
+
+
+
+/* thr second section with 3 floats*/
+h3.top{
+    float: left;
+    width: 100%;
+    border-left: 5px solid red;
+    padding-left: 5px;
+    font-size: larger;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+section{
+    float: left;
+    width: 33.3333%;
+    height: 30%;
+}
+section img{
+    height: 200px;
+    width: 100%;
+}
+section article a{
+    text-decoration: none;
+    color: black;
+    font-weight: 15;
+}
+a:hover{
+    color: brown;
+}
+ section span{
+    border-left: 2px solid red;
+    padding-left: 5px;
+    font-size: smaller;
+    font-weight: 10;
+}

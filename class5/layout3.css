@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+header , footer{
+    height: 120px;
+    border: 3px solid grey;
+    clear: both;
+}
+div > section{
+    height: 200px;
+    width:33.33%;
+    border: 3px solid grey;
+    float: right;
+}
+section{
+    height: 200px;
+    width:50%;
+    border: 3px solid grey;
+    float: right;
+}

@@ -1,0 +1,41 @@
+html{
+  font-size: 62.5%;
+}
+div{
+    border: 0.5vh solid grey;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+section{
+    display: flex;
+    gap: 1.5%;
+    height:30vh;
+    
+
+}
+.first{
+    flex-basis: 100%;
+}
+
+.small{
+    flex-basis: 40%;
+}
+ .large{
+    flex-basis: 60%;
+}
+
+
+@media all and (max-width:500px) {
+    .col{
+        flex-direction: column;
+      gap: 5%;
+        }
+        .next{
+            height: 50vh;
+           
+        }
+    }

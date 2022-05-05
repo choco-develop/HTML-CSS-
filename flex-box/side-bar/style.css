@@ -1,0 +1,31 @@
+html{
+   font-size: 62.5%;
+}
+
+
+section{
+    display: flex;
+    gap:10%;
+  
+}
+aside,main{
+    height: 60vh;
+    border: 0.5vh solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    flex-grow: 8;
+  
+}
+aside{
+    flex-grow: 2;
+    
+}
+@media screen and (max-width:500px){
+    section{
+        height: 60vh;
+        flex-direction: column;
+        gap: 10%;
+    }
+}

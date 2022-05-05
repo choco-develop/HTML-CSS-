@@ -1,0 +1,30 @@
+
+.flex,section+section{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    height: 10vh;
+    gap:3%
+   
+}
+div{
+    height: 5vh;
+    width: 20%;
+    background-color: whitesmoke;
+    border: 2px solid blue ;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media all and (max-width:500px) {
+   .flex,section+section{
+       flex-direction: column;
+       height: 15vh;
+      flex-grow: 5;
+   }
+   section>section{
+       gap: 5%;
+   }
+}

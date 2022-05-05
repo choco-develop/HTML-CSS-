@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;
+}
+
+section{
+    display: flex;
+    gap: 2%;
+    height: 30vh;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5vh solid green;
+    border-radius: 2vh;
+    height: 25vh;
+    font-size: 3rem;
+}
+.first{
+    flex-basis: 100%;
+}
+.large{
+    flex-basis: 60%;
+}
+.small{
+    flex-basis: 20%;
+}
+.high{
+    height: 60vh;
+}
+.high .small,.high .large{
+    height: 50vh;
+}
+
+@media all and (max-width:500px) {
+    section{
+        flex-direction: column;
+        gap: 5%;
+    }
+    .high .hide{
+         display: none;
+    }
+    .high .large{
+        flex-basis: 80%;
+    }
+    
+}

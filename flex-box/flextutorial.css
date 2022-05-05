@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    height: 50vh;
+    gap: 3%;
+    flex-direction: column;
+}
+
+div{
+    width: 30%;
+    height: 50vh;
+    background-color: brown;
+    border: 2px solid white;
+    /*placing text @ centre*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100rem;
+}  
+.flex{
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    background-color:blue;
+    border: 2px solid white;
+}
+.flex div{
+    background-color: aliceblue;
+    border: 2px solid blue;   
+}
+.space{
+    flex: 2 1 30em;
+
+}

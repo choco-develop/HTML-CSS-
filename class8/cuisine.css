@@ -297,6 +297,43 @@ main  ul li i{
 
 
 
+@media screen and (max-width:480px){
+    nav ul li{
+        display: none;
+    
+    }
+    .main{
+        float: none;
+    }
+    .about{
+        height: 70vh;
+    }
+
+
+    .foodshow div>img{
+        float: none;
+        width: 80%;
+        height: 25vh;
+     
+       
+    }
+    .book{
+        height: 50vh;
+        margin-top: 50%;
+      
+    }
+    
+    .review{
+        margin-top: 105%;
+        height: 85vh;
+    }
+
+}
+
+
+
+
+
 
 
 

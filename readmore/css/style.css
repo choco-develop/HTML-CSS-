@@ -1,0 +1,12 @@
+p span#more{
+    display: none;
+}
+p span#less{
+    display: inline;
+}
+button{
+    background-color: black;
+    color:bisque;
+    padding:2px 1px;
+
+}

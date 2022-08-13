@@ -34,9 +34,8 @@ class Front extends Contractor{
     get frameworkHours(){
         return this._frameworkHours
     }
-     dailyInvoice(){
-       // super (dailyInvoice())
-        return `daily activities for first work day is ${this.htmlHours} on html `
+    pay() {      // super (dailyInvoice())
+        return `daily activities for first work day is ${this._htmlHours} hours on html and ${this._cssHours} on css and your pay is ${this.dailyInvoice(this._hourlyRate*this.hoursPerDay)} dollars  `
      }
 }
 class Back extends Contractor{
@@ -58,5 +57,9 @@ class Back extends Contractor{
 
 }
 //let AgentsDevs= new Contractor(15,8)
-let foodiesWeb=new Front(15,8,5,3,0,false)
-let foodiesApi=new Back(15,8,'get data','analyse data' ,'node.js')
+let scar =new Front(15,8,5,3,0,false)
+let simba=new Back(15,8,'get data','analyse data' ,'node.js')
+let agentDevs=[scar,simba]
+for (attributes of agentDevs){
+    console.log (attributes.pay())
+}
